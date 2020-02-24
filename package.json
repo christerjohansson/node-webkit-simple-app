@@ -4,7 +4,7 @@
   "description": "A simple Node Webkit app based on JavaScript game called breakout.",
   "main": "index.js",
   "scripts": {
-    "dev": "nw src/",
+    "dev": "nw Breakout/",
     "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buidlDir dist/ src/"
   },
   "keywords": [],

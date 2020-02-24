@@ -1,5 +1,5 @@
 {
-  "name": "src",
+  "name": "Breakout",
   "version": "1.0.0",
   "description": "",
   "main": "views/main.html",
