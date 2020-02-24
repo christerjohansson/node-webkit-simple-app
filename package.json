@@ -1,0 +1,17 @@
+{
+  "name": "BreakOut",
+  "version": "0.0.1",
+  "description": "A simple Node Webkit app based on JavaScript game called breakout.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buidlDir dist/ src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.44.2-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
