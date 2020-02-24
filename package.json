@@ -1,5 +1,5 @@
 {
-  "name": "BreakOut",
+  "name": "breakout",
   "version": "0.0.1",
   "description": "A simple Node Webkit app based on JavaScript game called breakout.",
   "main": "index.js",
