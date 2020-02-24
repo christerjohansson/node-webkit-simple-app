@@ -14,7 +14,7 @@ const ball = {
     x: canvas.width / 2,
     y: canvas.height / 2,
     size: 10,
-    speed: 4,
+    speed: 2,
     dx: 4,
     dy: -4
 };
@@ -63,7 +63,7 @@ function drawBall() {
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h);
-    ctx.fillStyle = '#0095dd';
+    ctx.fillStyle = '#000000';
     ctx.fill();
     ctx.closePath();
 }
@@ -80,7 +80,7 @@ function drawBricks() {
         column.forEach(brick => {
             ctx.beginPath();
             ctx.rect(brick.x, brick.y, brick.w, brick.h);
-            ctx.fillStyle = brick.visible ? '#0095dd' : 'transparent';
+            ctx.fillStyle = brick.visible ? '#b5006a' : 'transparent';
             ctx.fill();
             ctx.closePath();
         });
